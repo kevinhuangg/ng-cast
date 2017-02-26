@@ -7,8 +7,8 @@ angular.module('video-player')
     },
     controllerAs: 'ctrl',
     bindToController: true,
-    controller: function() {
-      // console.log($scope);
+    controller: function($scope) {
+      console.log($scope);
     },
     templateUrl: 'src/templates/videoList.html'
   };
